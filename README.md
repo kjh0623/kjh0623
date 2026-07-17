@@ -1,8 +1,9 @@
-<h1 align="center">Kim Ji Hoon (김지훈)</h1>
-<p align="center"><b>Senior Data Engineer</b> · Data Platform · Workflow Orchestration · GitOps</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=190&text=Kim%20Ji%20Hoon&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Senior%20Data%20Engineer%20%C2%B7%20Data%20Platform%20%C2%B7%20Workflow%20Orchestration%20%C2%B7%20GitOps&descSize=16&descAlignY=78" alt="header" />
 
 <p align="center">
-  <em>Building reliable, observable data platforms — from DAG to dashboard.</em>
+  <a href="https://github.com/kjh0623">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=3200&pause=900&center=true&vCenter=true&width=600&lines=Running+Airflow+3+on+Kubernetes+with+3%2C600+DAGs;Apache+Airflow+upstream+contributor;Building+reliable%2C+observable+data+platforms;From+DAG+to+dashboard" alt="typing" />
+  </a>
 </p>
 
 ---
@@ -22,6 +23,8 @@
 ---
 
 ### 🔭 Open Source
+
+> 🎯 **Apache Airflow에 업스트림 기여 6건** — 3,600개 DAG를 운영하며 만난 버그·레이스 컨디션을 근본 원인까지 파서 본체에 고치고 있습니다.
 
 | | Contribution | Status |
 |---|---|---|
@@ -115,14 +118,30 @@
 
 ### 📊 GitHub
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kjh0623&show_icons=true&hide_border=true&count_private=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kjh0623&layout=compact&hide_border=true&langs_count=8" alt="top-langs" />
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kjh0623&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kjh0623&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="top-langs" />
 </p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kjh0623/kjh0623/output/github-snake-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/kjh0623/kjh0623/output/github-snake.svg" alt="snake" />
+</picture>
 
 ---
 
 ### 📫 Connect
 
-- 📧 Email: gktxk@naver.com
-- 💼 LinkedIn: [linkedin.com/in/지훈-김-logankim](https://www.linkedin.com/in/%EC%A7%80%ED%9B%88-%EA%B9%80-logankim/)
+<p align="center">
+  <a href="mailto:gktxk@naver.com">
+    <img src="https://img.shields.io/badge/Email-gktxk%40naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="email" />
+  </a>
+  <a href="https://www.linkedin.com/in/%EC%A7%80%ED%9B%88-%EA%B9%80-logankim/">
+    <img src="https://img.shields.io/badge/LinkedIn-Kim%20Ji%20Hoon-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" />
+  </a>
+  <a href="https://github.com/kjh0623?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-kjh0623-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" />
+  </a>
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=110&section=footer" alt="footer" />
