@@ -118,11 +118,6 @@
 
 ### 📊 GitHub
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kjh0623&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kjh0623&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="top-langs" />
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kjh0623/kjh0623/output/github-snake-dark.svg" />
   <img width="100%" src="https://raw.githubusercontent.com/kjh0623/kjh0623/output/github-snake.svg" alt="snake" />
