@@ -1,11 +1,27 @@
-# Kim Ji Hoon (김지훈)
+<h1 align="center">Kim Ji Hoon (김지훈)</h1>
+<p align="center"><b>Senior Data Engineer</b> · Data Platform · Workflow Orchestration · GitOps</p>
 
-**Senior Data Engineer** — 12 years of designing and operating large-scale data pipelines
-Seoul, Korea · [LinkedIn](https://www.linkedin.com/in/%EC%A7%80%ED%9B%88-%EA%B9%80-logankim) · gktxk@naver.com
+<p align="center">
+  <em>Building reliable, observable data platforms — from DAG to dashboard.</em>
+</p>
 
-Running a 3,600-DAG Airflow 3 platform on Kubernetes. Migrating legacy ETL (DataStage · Pentaho · Oozie) to a modern stack (Airflow · K8s · Iceberg · Trino). Contributing fixes back upstream to Apache Airflow.
+---
 
-## 🔭 Open Source
+### 👋 About
+
+12년 차 **시니어 데이터 엔지니어**입니다. 배치·파이프라인 오케스트레이션(Apache Airflow)부터
+쿼리 엔진(Trino), 변환(dbt), 그리고 이 모든 걸 굴리는 **Kubernetes + GitOps** 플랫폼 운영까지, 데이터가 흐르는
+전 구간을 설계하고 안정적으로 운영합니다. 현재 **3,600개 DAG 규모의 Airflow 3 플랫폼**을 Kubernetes 위에서 운영 중입니다.
+
+- 🛠️ **Data platform ownership** — Airflow / Trino / dbt 스택을 멀티 클러스터(dev·stag·prd)로 운영
+- 🔀 **Orchestration at scale** — Kubernetes 기반 Airflow 3.x, Git-bundle DAG, 커스텀 이미지 파이프라인
+- 🚀 **GitOps first** — ArgoCD로 선언적 배포, 변경은 전부 Git → 리뷰 → sync
+- 🔎 **Root-cause driven** — 트랜잭션·세션 레벨까지 파고들어 근본 원인을 잡고, 필요하면 upstream에 기여
+- 🔐 **Governed access** — OPA / Ranger / OIDC 기반 데이터 접근 제어
+
+---
+
+### 🔭 Open Source
 
 | | Contribution | Status |
 |---|---|---|
@@ -16,7 +32,21 @@ Running a 3,600-DAG Airflow 3 platform on Kubernetes. Migrating legacy ETL (Data
 | [apache/airflow#70057](https://github.com/apache/airflow/pull/70057) | Don't fail requests with a bare 500 on transient JWT refresh errors | 🟢 under review |
 | [apache/airflow#70058](https://github.com/apache/airflow/pull/70058) | Add `refresh_on_initialize` option to `GitDagBundle` | 🟢 under review |
 
-## 🛠 Tech Stack
+---
+
+### 🌱 What I work on
+
+| Area | Details |
+|------|---------|
+| **Pipeline orchestration** | Apache Airflow 3.x on Kubernetes — Git-bundle DAGs, custom images (dbt/ClickHouse/Impala venvs), multi-env (dev · stag · prd) |
+| **Query & analytics** | Trino coordinators/workers, OPA-based access policies, group sync automation |
+| **Transformation** | dbt (core + ClickHouse / Impala adapters) |
+| **Platform / GitOps** | ArgoCD-managed EKS & on-prem clusters, declarative manifests, selective sync & rollout |
+| **Reliability** | multi-replica DAG-processor race conditions, transaction-safety, TLS & auth-proxy hardening |
+
+---
+
+### 🛠 Tech Stack
 
 **Languages**
 
@@ -32,6 +62,7 @@ Running a 3,600-DAG Airflow 3 platform on Kubernetes. Migrating legacy ETL (Data
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-728E9B?style=flat-square&logo=apachenifi&logoColor=white)
 ![Apache Iceberg](https://img.shields.io/badge/Apache%20Iceberg-2C5BFF?style=flat-square)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![Fluentd](https://img.shields.io/badge/Fluentd-0E83C8?style=flat-square&logo=fluentd&logoColor=white)
 
 **Data Platform**
@@ -58,6 +89,7 @@ Running a 3,600-DAG Airflow 3 platform on Kubernetes. Migrating legacy ETL (Data
 ![GitLab CI/CD](https://img.shields.io/badge/GitLab%20CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![Harbor](https://img.shields.io/badge/Harbor-60B932?style=flat-square&logo=harbor&logoColor=white)
 ![MinIO](https://img.shields.io/badge/MinIO%20%2F%20S3-C72E49?style=flat-square&logo=minio&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
 **Observability & Security**
 
@@ -78,3 +110,19 @@ Running a 3,600-DAG Airflow 3 platform on Kubernetes. Migrating legacy ETL (Data
 ![Oracle](https://img.shields.io/badge/Oracle-C74634?style=flat-square)
 ![MSSQL](https://img.shields.io/badge/MSSQL-A91D22?style=flat-square)
 ![Tibero](https://img.shields.io/badge/Tibero-005EB8?style=flat-square)
+
+---
+
+### 📊 GitHub
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kjh0623&show_icons=true&hide_border=true&count_private=true" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kjh0623&layout=compact&hide_border=true&langs_count=8" alt="top-langs" />
+</p>
+
+---
+
+### 📫 Connect
+
+- 📧 Email: gktxk@naver.com
+- 💼 LinkedIn: [linkedin.com/in/지훈-김-logankim](https://www.linkedin.com/in/%EC%A7%80%ED%9B%88-%EA%B9%80-logankim/)
