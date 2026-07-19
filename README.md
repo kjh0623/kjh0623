@@ -1,4 +1,5 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=190&text=Kim%20Ji%20Hoon&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Senior%20Data%20Engineer%20%C2%B7%20Data%20Platform%20%C2%B7%20Workflow%20Orchestration%20%C2%B7%20GitOps&descSize=16&descAlignY=78" alt="header" />
+<h1 align="center">Kim Ji Hoon (김지훈)</h1>
+<p align="center"><b>Senior Data Engineer</b> · Data Platform · Workflow Orchestration · GitOps</p>
 
 <p align="center">
   <a href="https://github.com/kjh0623">
@@ -24,7 +25,9 @@
 
 ### 🔭 Open Source
 
-> 🎯 **Apache Airflow에 업스트림 기여 6건** — 3,600개 DAG를 운영하며 만난 버그·레이스 컨디션을 근본 원인까지 파서 본체에 고치고 있습니다.
+> 🎯 3,600개 DAG 프로덕션 플랫폼을 운영하며 만난 버그·레이스 컨디션을 근본 원인까지 파서 업스트림(**Apache Airflow**, **Trino**)에 직접 기여하고 있습니다.
+
+**Apache Airflow**
 
 | | Contribution | Status |
 |---|---|---|
@@ -34,6 +37,13 @@
 | [apache/airflow#70056](https://github.com/apache/airflow/issues/70056) | Report: scheduler silently skips queued DagRuns with unresolvable pinned versions | 🐛 reported |
 | [apache/airflow#70057](https://github.com/apache/airflow/pull/70057) | Don't fail requests with a bare 500 on transient JWT refresh errors | 🟢 under review |
 | [apache/airflow#70058](https://github.com/apache/airflow/pull/70058) | Add `refresh_on_initialize` option to `GitDagBundle` | 🟢 under review |
+
+**Trino**
+
+| | Contribution | Status |
+|---|---|---|
+| [trinodb/trino#28630](https://github.com/trinodb/trino/issues/28630) | "SHOW COLUMNS only returns the first row" — 클라이언트 배치 페이로드 처리 방식이 원인(서버 버그 아님)임을 규명, 해당 분석으로 이슈 종결 | ✅ root-caused & closed |
+| [trinodb/trino#28602](https://github.com/trinodb/trino/issues/28602) | OPA access control: `SELECT *` 부분 권한 거부 시 에러 메시지가 전체 컬럼명을 노출하는 문제 — 메인테이너와 수정 방향(semantic analyzer) 논의 중, PR 준비 | 💬 in discussion |
 
 ---
 
@@ -138,5 +148,3 @@
     <img src="https://img.shields.io/badge/GitHub-kjh0623-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" />
   </a>
 </p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=110&section=footer" alt="footer" />
