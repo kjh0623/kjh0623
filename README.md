@@ -1,4 +1,4 @@
-<h1 align="center">Kim Ji Hoon (김지훈)</h1>
+<h1 align="center">Kim Ji Hoon</h1>
 <p align="center"><b>Senior Data Engineer</b> · Data Platform · Workflow Orchestration · GitOps</p>
 
 <p align="center">
@@ -11,21 +11,22 @@
 
 ### 👋 About
 
-12년 차 **시니어 데이터 엔지니어**입니다. 배치·파이프라인 오케스트레이션(Apache Airflow)부터
-쿼리 엔진(Trino), 변환(dbt), 그리고 이 모든 걸 굴리는 **Kubernetes + GitOps** 플랫폼 운영까지, 데이터가 흐르는
-전 구간을 설계하고 안정적으로 운영합니다. 현재 **3,600개 DAG 규모의 Airflow 3 플랫폼**을 Kubernetes 위에서 운영 중입니다.
+Senior Data Engineer with 12 years of experience. From batch and pipeline orchestration (Apache Airflow)
+to query engines (Trino), transformation (dbt), and the **Kubernetes + GitOps** platform that runs it all,
+I design and reliably operate every stage that data flows through. I currently run an **Airflow 3 platform
+with 3,600 DAGs** on Kubernetes.
 
-- 🛠️ **Data platform ownership** — Airflow / Trino / dbt 스택을 멀티 클러스터(dev·stag·prd)로 운영
-- 🔀 **Orchestration at scale** — Kubernetes 기반 Airflow 3.x, Git-bundle DAG, 커스텀 이미지 파이프라인
-- 🚀 **GitOps first** — ArgoCD로 선언적 배포, 변경은 전부 Git → 리뷰 → sync
-- 🔎 **Root-cause driven** — 트랜잭션·세션 레벨까지 파고들어 근본 원인을 잡고, 필요하면 upstream에 기여
-- 🔐 **Governed access** — OPA / Ranger / OIDC 기반 데이터 접근 제어
+- 🛠️ **Data platform ownership** — operating the Airflow / Trino / dbt stack across multiple clusters (dev · stag · prd)
+- 🔀 **Orchestration at scale** — Kubernetes-based Airflow 3.x, Git-bundle DAGs, custom image pipelines
+- 🚀 **GitOps first** — declarative delivery with ArgoCD; every change goes Git → review → sync
+- 🔎 **Root-cause driven** — digging down to the transaction and session level to find the real cause, and contributing upstream when needed
+- 🔐 **Governed access** — data access control built on OPA / Ranger / OIDC
 
 ---
 
 ### 🔭 Open Source
 
-> 🎯 3,600개 DAG 프로덕션 플랫폼을 운영하며 만난 버그·레이스 컨디션을 근본 원인까지 파서 업스트림(**Apache Airflow**, **Trino**)에 직접 기여하고 있습니다.
+> 🎯 Running a 3,600-DAG production platform, I trace the bugs and race conditions I hit down to their root cause and contribute the fixes directly upstream (**Apache Airflow**, **Trino**).
 
 **Apache Airflow**
 
@@ -42,8 +43,8 @@
 
 | | Contribution | Status |
 |---|---|---|
-| [trinodb/trino#28630](https://github.com/trinodb/trino/issues/28630) | "SHOW COLUMNS only returns the first row" — 클라이언트 배치 페이로드 처리 방식이 원인(서버 버그 아님)임을 규명, 해당 분석으로 이슈 종결 | ✅ root-caused & closed |
-| [trinodb/trino#28602](https://github.com/trinodb/trino/issues/28602) | OPA access control: `SELECT *` 부분 권한 거부 시 에러 메시지가 전체 컬럼명을 노출하는 문제 — 메인테이너와 수정 방향(semantic analyzer) 논의 중, PR 준비 | 💬 in discussion |
+| [trinodb/trino#28630](https://github.com/trinodb/trino/issues/28630) | "SHOW COLUMNS only returns the first row" — root-caused to the client's batch payload handling (not a server bug); the analysis closed the issue | ✅ root-caused & closed |
+| [trinodb/trino#28602](https://github.com/trinodb/trino/issues/28602) | OPA access control: on partial-permission denial for `SELECT *`, the error message leaks every column name — discussing the fix (semantic analyzer) with maintainers, PR in preparation | 💬 in discussion |
 
 ---
 
