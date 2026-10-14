@@ -34,17 +34,17 @@ with 3,600 DAGs** on Kubernetes.
 |---|---|---|
 | [apache/airflow#69845](https://github.com/apache/airflow/pull/69845) | Fix DAG import errors being dropped during parsing | 🟢 under review |
 | [apache/airflow#70002](https://github.com/apache/airflow/pull/70002) | Fix `dag_tag` UniqueViolation race with HA dag processors | 🟢 under review |
-| [apache/airflow#70003](https://github.com/apache/airflow/pull/70003) | Add `pin_symlink_on_refresh` to `LocalDagBundle` for git-sync checkouts | 🟢 under review |
-| [apache/airflow#70056](https://github.com/apache/airflow/issues/70056) | Report: scheduler silently skips queued DagRuns with unresolvable pinned versions | 🐛 reported |
-| [apache/airflow#70057](https://github.com/apache/airflow/pull/70057) | Don't fail requests with a bare 500 on transient JWT refresh errors | 🟢 under review |
-| [apache/airflow#70058](https://github.com/apache/airflow/pull/70058) | Add `refresh_on_initialize` option to `GitDagBundle` | 🟢 under review |
+| [apache/airflow#74722](https://github.com/apache/airflow/pull/74722) | Don't fail requests with a bare 500 on transient JWT refresh errors (re-submitted from [#70057](https://github.com/apache/airflow/pull/70057)) | 🟢 under review |
+| [apache/airflow#70056](https://github.com/apache/airflow/issues/70056) | Report: scheduler silently skips queued DagRuns with unresolvable pinned versions | ✅ fixed upstream in 3.3.2 ([#71696](https://github.com/apache/airflow/pull/71696)) |
+| [apache/airflow#70058](https://github.com/apache/airflow/pull/70058) | Add `refresh_on_initialize` option to `GitDagBundle` | ⚪ closed after review (kept as an internal subclass) |
+| [apache/airflow#70003](https://github.com/apache/airflow/pull/70003) | Add `pin_symlink_on_refresh` to `LocalDagBundle` for git-sync checkouts | ⚪ closed (stale) |
 
 **Trino**
 
 | | Contribution | Status |
 |---|---|---|
-| [trinodb/trino#28630](https://github.com/trinodb/trino/issues/28630) | "SHOW COLUMNS only returns the first row" — root-caused to the client's batch payload handling (not a server bug); the analysis closed the issue | ✅ root-caused & closed |
-| [trinodb/trino#28602](https://github.com/trinodb/trino/issues/28602) | OPA access control: on partial-permission denial for `SELECT *`, the error message leaks every column name — discussing the fix (semantic analyzer) with maintainers, PR in preparation | 💬 in discussion |
+| [trinodb/trino#28630](https://github.com/trinodb/trino/issues/28630) | "SHOW COLUMNS only returns the first row" — traced to an OPA batched `filterColumns` policy corner case (not a Trino bug); the reporter confirmed the fix and closed the issue | ✅ root-caused & closed |
+| [trinodb/trino#28602](https://github.com/trinodb/trino/issues/28602) | OPA access control: on partial-permission denial for `SELECT *`, the error message lists every column name — shared code pointers and a local repro; maintainers are fixing it per access-control plugin (Ranger: [#30435](https://github.com/trinodb/trino/pull/30435)), OPA still open | 💬 in discussion |
 
 ---
 
